@@ -20,7 +20,7 @@ function SearchForm(props) {
         />
         <datalist id="employees">
           {props.employees.map(employee => (
-            <option value={employee} key={employee} />
+            <option value={employee.name} key={employee.id} />
           ))}
         </datalist>
         <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
