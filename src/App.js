@@ -43,7 +43,7 @@ class App extends React.Component {
         compareFunction = (e1, e2) => this.compareTwoStrings(e1.email, e2.email);
         break;
       case "id":
-        compareFunction = (e1, e2) => (e1.id - e2.id);
+        compareFunction = (e1, e2) => (parseInt(e1.id) - parseInt(e2.id));
         break;
       default:
         console.log("Not Supported");
