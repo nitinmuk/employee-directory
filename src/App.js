@@ -21,15 +21,14 @@ class App extends React.Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    console.log(`searchedName = ${this.state.searchedName}`);
-    if(this.state.searchedName && this.state.searchedName.trim().length) {
+    if (this.state.searchedName && this.state.searchedName.trim().length) {
       const filteredEmployee = employees
-      .filter(employee => employee.name === this.state.searchedName);
-      this.setState({employees : filteredEmployee});      
+        .filter(employee => employee.name === this.state.searchedName);
+      this.setState({ employees: filteredEmployee });
     }
     else {
-      this.setState({employees : employees});      
-    }    
+      this.setState({ employees: employees });
+    }
   };
 
   render() {
@@ -41,7 +40,7 @@ class App extends React.Component {
             <SearchForm
               handleFormSubmit={this.handleFormSubmit}
               handleInputChange={this.handleInputChange}
-              employees={employees.map(employee => employee.name)}
+              employees={employees.map(employee => { return { name: employee.name, id: employee.id } })}
             />
           </Col>
         </Row>
