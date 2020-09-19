@@ -1,0 +1,32 @@
+[
+    {
+      "id": "123",
+      "name": "Arron Gibson",
+      "department": "Software Development",
+      "email": "arron.gibson@example.com"
+    },
+    {
+      "id": "124",
+      "name": "Gabriele Finnesand",
+      "department": "Finance",
+      "email": "gabriele.finnesand@example.com"
+    },
+    {
+      "id": "125",
+      "name": "Jansje Kruizenga",
+      "department": "Human Resource",
+      "email": "jansje.kruizenga@example.com"
+    },
+    {
+      "id": "234",
+      "name": "Annabel Hauck",
+      "department": "Human Resource",
+      "email": "tealsquirrel68@gmail.com"
+    },
+    {
+      "id": "235",
+      "name": "Jeffry Rodriguez",
+      "department": "Human Resource",
+      "email": "Jeffry.Rodriguez@rylee.org"
+    }
+  ]
