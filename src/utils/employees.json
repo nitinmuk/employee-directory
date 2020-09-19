@@ -58,5 +58,65 @@
     "name": "Jeffry Rodriguez",
     "department": "Finance",
     "email": "Jeffry.Rodriguez2@rylee.org"
+  },
+  {
+    "id": "993",
+    "name": "Melissa Miller",
+    "department": "Travel",
+    "email": "skybluefrog42@gmail.com"
+  },
+  {
+    "id": "994",
+    "name": "Adolph Fritsch",
+    "department": "Finance",
+    "email": "Adolph.Fritsch@florencio.name"
+  },
+  {
+    "id": "995",
+    "name": "Twila Ward",
+    "department": "Software Development",
+    "email": "Twila.Ward@kaelyn.info"
+  },
+  {
+    "id": "996",
+    "name": "Tessie Gulgowski",
+    "department": "Finance",
+    "email": "Tessie.Gulgowski@glenna.org"
+  },
+  {
+    "id": "997",
+    "name": "Carol Steuber",
+    "department": "Finance",
+    "email": "Carol.Steuber@edgardo.name"
+  },
+  {
+    "id": "998",
+    "name": "Hattie Dietrich",
+    "department": "Human Resource",
+    "email": "purplesquirrel49@gmail.com"
+  },
+  {
+    "id": "1997",
+    "name": "Horace Fisher",
+    "department": "Finance",
+    "email": "mintgreenfrog27@gmail.com"
+  },
+  {
+    "id": "99",
+    "name": "Geraldine Adams",
+    "department": "Legal",
+    "email": "lavenderrabbit90@gmail.com"
+  },
+  {
+    "id": "999",
+    "name": "Trycia Schuppe",
+    "department": "Travel",
+    "email": "purplerabbit94@gmail.com"
+  },
+  {
+    "id": "100",
+    "name": "Eden Rau",
+    "department": "Human Resource",
+    "email": "Eden.Rau@claudine.com"
   }
 ]
