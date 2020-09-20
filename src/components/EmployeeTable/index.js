@@ -4,7 +4,7 @@ import TableBody from "../TableBody";
 import Table from 'react-bootstrap/Table';
 
 function EmployeeTable(props) {
-  return (<Table responsive striped bordered hover>
+  return (<Table responsive>
     <TableHeader
       colNames={Object.keys(props.employees[0])}
       handleEmployeeSort={props.handleEmployeeSort}

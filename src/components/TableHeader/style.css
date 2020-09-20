@@ -1,0 +1,8 @@
+.header {
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+.header:hover {
+    opacity: 0.75;
+}

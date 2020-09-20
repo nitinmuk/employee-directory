@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 const TableHeader = (props) => {
     return (
         <thead>
@@ -12,8 +13,8 @@ const TableHeader = (props) => {
 function getTableHeaders(props) {
     const headers = [];
     props.colNames.forEach(element => {
-        const header = <th onClick={props.handleEmployeeSort} key={element}>
-            {element}
+        const header = <th className="header" onClick={props.handleEmployeeSort} key={element}>
+            {element}            
         </th>
         headers.push(header);
     });
