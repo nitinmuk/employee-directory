@@ -9,7 +9,11 @@ const TableHeader = (props) => {
         </thead>
     );
 }
-
+/**
+ * creates an array of th elements corresponding to columnNames
+ * and returns same i.e. one th element for one columnName
+ * @param {props passed to component} props 
+ */
 function getTableHeaders(props) {
     const headers = [];
     props.colNames.forEach(element => {
@@ -20,6 +24,11 @@ function getTableHeaders(props) {
     });
     return headers;
 }
+/**
+ * returns a user friendly column name for each object key
+ * so that same can be rendered in UI
+ * @param {one of the key of employee object} element 
+ */
 function getHeaderName(element) {
     switch(element) {
         case "id":

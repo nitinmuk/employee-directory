@@ -16,6 +16,11 @@ const TableBody = (props) => {
     </tbody>);
 };
 
+/**
+ * creates an array of td element for input employee
+ * and returns same
+ * @param {employee object to render} employee 
+ */
 function getTableRowData(employee){
     const tableData = [];
     Object.keys(employee)
