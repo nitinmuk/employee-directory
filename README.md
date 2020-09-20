@@ -14,8 +14,8 @@ Employee directory is an app to list all employees and search and sort them. It 
 Please download repository and run npm install and configure employee data in [employees.json](./src/utils/employees.json)
 ## Usage
 The user should be able to:
-  * Sort the table by any column.
-  * filter the employee by employee name.
+  * Sort the employees by any employee table column.
+  * filter the employees by employee name.
 ## Contributing
 You are most welcome to contribute. There are following ways to contribute:
 1. Please raise a pull request.
