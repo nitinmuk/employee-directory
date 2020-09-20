@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
 const TableBody = (props) => {
     return (<tbody>
         {props.employees.map(
             employee => {
                 return (
-                    <tr key={employee.id}>
+                    <tr className="tableRow" key={employee.id}>
                         {getTableRowData(employee)}
 
                     </tr>

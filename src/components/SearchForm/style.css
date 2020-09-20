@@ -9,3 +9,7 @@ form.search {
     background-color: cadetblue;
     border-color: cadetblue;
   }
+
+  form.search button[type="submit"]:hover {
+    opacity: 0.75;
+}

@@ -33,16 +33,16 @@ class App extends React.Component {
     let compareFunction;
     const sortCriteria = event.target.innerText;
     switch (sortCriteria) {
-      case "name":
+      case "Name":
         compareFunction = (e1, e2) => this.compareTwoStrings(e1.name, e2.name);
         break;
-      case "department":
+      case "Department":
         compareFunction = (e1, e2) => this.compareTwoStrings(e1.department, e2.department);
         break;
-      case "email":
+      case "Email ID":
         compareFunction = (e1, e2) => this.compareTwoStrings(e1.email, e2.email);
         break;
-      case "id":
+      case "Employee ID":
         compareFunction = (e1, e2) => (parseInt(e1.id) - parseInt(e2.id));
         break;
       default:
