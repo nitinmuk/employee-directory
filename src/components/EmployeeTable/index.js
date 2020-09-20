@@ -6,7 +6,7 @@ import Table from 'react-bootstrap/Table';
 function EmployeeTable(props) {
   return (<Table responsive>
     <TableHeader
-      colNames={["id","name","department","email"]}
+      colNames={props.colNames}
       handleEmployeeSort={props.handleEmployeeSort}
     />
     <TableBody
